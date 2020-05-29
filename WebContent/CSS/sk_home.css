@@ -1,0 +1,85 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+ 
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding-top:12px;
+  padding-bottom:12px;
+  padding-left:6px;
+  padding-right:6px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 100px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding-top:12px;
+  padding-bottom:12px;
+  padding-left:6px;
+  padding-right:6px;
+  
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+li 
+{
+list-style:none;
+}
