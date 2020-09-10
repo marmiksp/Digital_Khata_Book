@@ -2,5 +2,5 @@
 Digital Khata Book Web App.
 
 ## Snapshots
-<img src="Digital Khata Book SS/Dashboard.png">
+<img src="Digital Khata Book SS/Dashboard.PNG">
 
